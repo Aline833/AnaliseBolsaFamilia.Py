@@ -17,7 +17,7 @@ st.title("Análise do Bolsa Família em 2025")
 # 📄 Leitura dos dados
 st.subheader("Carregando os dados...")
 
-caminho_arquivo = "POP2024_20241230.xls"
+caminho_arquivo = "POP2024_20241230.xlsx"
 
 df_bolsa = pd.read_excel(
     caminho_arquivo,
