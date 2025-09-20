@@ -119,9 +119,6 @@ with col3:
 
 # 📊 Gráfico 4
 
-    import locale
-    locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
-
     def formatar_valor(valor):
         if valor >= 1_000_000:
             return f"R$ {valor/ 1_000_000:.1f} Mi"
